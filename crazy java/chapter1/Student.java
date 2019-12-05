@@ -1,4 +1,4 @@
-package wang;
+package chapter1;
 /**
  * Description:
  * Program Name: <br>
@@ -20,7 +20,7 @@ public class Student
    * set the name of student
    * @param name a string
    */
-  public setName(String name)
+  public void setName(String name)
   {
     this.name = name;
   }
@@ -30,8 +30,28 @@ public class Student
    * get the name of student
    * @return the string of name
    */
-  public getName()
+  public String getName()
   {
     return this.name;
+  }
+
+  /**
+   * member method
+   * set the id of student
+   * @param id an integer
+   */
+  public void setId(int id)
+  {
+    this.id = id;
+  }
+
+  /**
+   * member method
+   * get the id of student
+   * @return the integer of id
+   */
+  public int getId()
+  {
+    return this.id;
   }
 }
